@@ -1,5 +1,5 @@
 export function randomInt(x, y) {
-  if (arguments.length === 2) {
+  if (arguments.length === 1) {
     y = x;
     x = 0;
   } else if (arguments.length === 0) {
